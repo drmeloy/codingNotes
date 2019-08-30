@@ -6,11 +6,11 @@ header {
 
 .sectionHead {
   text-align: center;
-  border: 3px solid whitesmoke;
+  border: 3px solid gray;
+  background-color: whitesmoke;
   padding: 15px 20px;
-  display: inline-block;
-  margin: 0 auto;
-  position: relative;
+  margin: 20px auto;
+  width: 300px;
 }
 
 table {
@@ -19,12 +19,12 @@ table {
 }
 
 th {
-  border: 2px solid aquamarine;
+  border: 2px solid gray;
   background-color: lightyellow;
 }
 
 td {
-  border: 2px solid aquamarine;
+  border: 2px solid gray;
   /* width: 300px; */
   padding: 20px;
   background-color: lightyellow;
@@ -32,4 +32,13 @@ td {
 
 body {
   background-color: darkslategray;
+}
+
+ul {
+  border: 3px solid gray;
+  background-color: lightyellow;
+  padding: 20px 50px;
+  margin: 20px;
+  width: 400px;
+  margin: 15px auto;
 }
